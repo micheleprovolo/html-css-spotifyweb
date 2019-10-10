@@ -11,8 +11,39 @@ ul {
 
 /* REGOLE DI PAGINA */
 
-/* sidebar */
-
 /* main section */
+main {
+  width: 100%;
+}
+
+main:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* sidebar */
+aside {
+  background-color: black;
+  width: 20%;
+  height: calc(100vh - 150px);
+  float: left;
+  overflow: auto;
+}
+
+/* right section */
+.right-section {
+  background-color: darkblue;
+  width: 80%;
+  height: calc(100vh - 150px);
+  float: left;
+  overflow:auto;
+}
 
 /* footer */
+footer {
+  background-color: grey;
+  height: 150px;
+  width: 100%;
+  position: fixed;
+}
