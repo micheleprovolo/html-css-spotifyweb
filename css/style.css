@@ -38,25 +38,43 @@ aside {
 
 /* RIGHT SECTION */
 .right-section {
-  background-color: darkblue;
+  background-color: #161f39;
   width: 85%;
   height: calc(100vh - 150px);
   float: left;
   overflow:auto;
+  padding: 0 5%;
 }
 
 /* horizontal menu */
 .menu {
- width: 70%;
+ width: 100%;
 }
 
 .menu-list {
   display: flex;
   justify-content: space-between;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 3% 10%;
 }
 
 .menu-list a {
   color: #b3b3b3;
+}
+
+/* sezione "create per te" */
+.first-row {
+  color: #fff;
+  font-size: 25px;
+  font-family: Helvetica;
+  font-weight: bold;
+  padding: 3% 0;
+}
+
+.first-row p {
+  padding-top: 1%;
 }
 
 /* riga dischi */
@@ -77,7 +95,7 @@ aside {
 
 /* FOOTER */
 footer {
-  background-color: grey;
+  background-color: #282828;
   height: 150px;
   width: 100%;
   display: flex;
