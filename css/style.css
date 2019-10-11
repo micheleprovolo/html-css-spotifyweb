@@ -79,4 +79,17 @@ footer {
   background-color: grey;
   height: 150px;
   width: 100%;
+  display: flex;
+}
+/* colonna sinistra */
+.column-left {
+  display: flex;
+}
+
+/* colonna centrale */
+
+
+/* colonna destra */
+.column-right {
+  display: flex;
 }
