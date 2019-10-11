@@ -33,6 +33,7 @@ aside {
   height: calc(100vh - 150px);
   float: left;
   overflow: auto;
+  flex-direction: column;
 }
 
 /* RIGHT SECTION */
