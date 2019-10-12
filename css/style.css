@@ -15,6 +15,7 @@ a {
 }
 
 /* REGOLE DI PAGINA */
+
 /* MAIN SECTION */
 main {
   width: 100%;
@@ -49,6 +50,7 @@ aside {
   padding-top: 15%;
   font-size: 15px;
 }
+
 .sidebar-menu1 li {
   padding-top: 5%;
 }
@@ -115,6 +117,13 @@ aside {
   width: 100%;
 }
 
+.hamburger-menu {
+  display: none;
+  color: #b3b3b3;
+  padding-top: 3%;
+  padding-left: 95%;
+}
+
 .menu-list {
   display: flex;
   justify-content: space-between;
@@ -130,7 +139,7 @@ aside {
 /* sezione "create per te" */
 .first-row {
   color: #fff;
-  font-size: 25px;
+  /* font-size: 25px; */
   font-weight: bold;
   padding: 3% 0;
 }
@@ -148,6 +157,10 @@ aside {
   width: calc(100% / 5);
   padding-right: 2%;
   text-align: center;
+}
+
+.blocco a {
+  font-size: 14px;
 }
 
 .cover img {
@@ -177,8 +190,8 @@ footer a {
 .column-left {
   display: flex;
   width: 25%;
-
 }
+
 .minicover {
   width: 25%;
 }
@@ -194,6 +207,12 @@ footer a {
   font-size: 14px;
   display: flex;
   flex-direction: column;
+  padding-top: 3%;
+  margin-right: 8%;
+}
+
+.heart {
+  margin-top: 4%;
 }
 
 /* colonna centrale */
@@ -201,6 +220,7 @@ footer a {
   width: 50%;
   color: #b3b3b3;
 }
+
 .column-central i {
   font-size: 20px;
   padding-right: 2%;
@@ -227,6 +247,7 @@ footer a {
 .column-right {
   display: flex;
   width: 25%;
+  padding-top: 1%;
 }
 
 .column-right a {
@@ -237,4 +258,13 @@ footer a {
   width: 40%;
   height: 0.5px;
   margin: 1% 2% 0;
+}
+
+@media screen and (max-width: 992px) {
+  .menu-list {
+    display: none;
+  }
+  .hamburger-menu {
+    display: inline-block;
+  }
 }
