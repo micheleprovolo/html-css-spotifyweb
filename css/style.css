@@ -15,7 +15,6 @@ a {
 }
 
 /* REGOLE DI PAGINA */
-
 /* MAIN SECTION */
 main {
   width: 100%;
@@ -56,13 +55,13 @@ aside {
   width: 85%;
   height: calc(100vh - 100px);
   float: left;
-  overflow:auto;
+  overflow: auto;
   padding: 0 5%;
 }
 
 /* horizontal menu */
 .menu {
- width: 100%;
+  width: 100%;
 }
 
 .menu-list {
@@ -92,7 +91,6 @@ aside {
 /* riga dischi */
 .second-row {
   display: flex;
-
 }
 
 .blocco {
@@ -107,7 +105,6 @@ aside {
 }
 
 .cover {
-  /*  */
   color: white;
 }
 
@@ -129,11 +126,48 @@ footer a {
 .column-left {
   display: flex;
   width: 25%;
+
+}
+.minicover {
+  width: 25%;
+}
+
+.minicover img {
+  width: 70%;
+  height: 60px;
+  padding-bottom: 2%;
+}
+
+.naming {
+  text-align: left;
+  font-size: 14px;
 }
 
 /* colonna centrale */
 .column-central {
   width: 50%;
+  color: #b3b3b3;
+}
+.column-central i {
+  font-size: 20px;
+  padding-right: 2%;
+}
+
+.top-row {
+  text-align: center;
+}
+
+.bottom-row {
+  display: flex;
+  font-size: 13px;
+  padding-left: 15%;
+  padding-top: 2%;
+}
+
+hr {
+  width: 65%;
+  height: 0.5px;
+  margin: 1% 2% 0;
 }
 
 /* colonna destra */
