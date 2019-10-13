@@ -356,12 +356,30 @@ footer a:hover {
     width: 100%;
   }
 
+  footer {
+    padding: 3% 3%;
+  }
+
+  .minicover img {
+    width: 90%;
+    height: 50px;
+    padding-bottom: 2%;
+  }
+
 }
 
 @media screen and (max-width: 768px) {
 
   .sidebar-menu3 {
     font-size: 13px;
+  }
+
+  footer {
+    padding: 4% 1%;
+  }
+
+  .minicover {
+    display: none;
   }
 
 }
