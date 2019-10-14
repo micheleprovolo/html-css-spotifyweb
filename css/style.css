@@ -18,7 +18,7 @@ a {
 
 /* MAIN SECTION */
 main {
-  width: 100%;
+  /* width: 100%; */
 }
 
 main:after {
@@ -372,6 +372,10 @@ footer a:hover {
 
   .sidebar-menu3 {
     font-size: 13px;
+  }
+
+  .second-row {
+    flex-wrap: wrap;
   }
 
   footer {
