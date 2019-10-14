@@ -368,7 +368,7 @@ footer a:hover {
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
 
   .sidebar-menu3 {
     font-size: 13px;
@@ -378,12 +378,37 @@ footer a:hover {
     flex-wrap: wrap;
   }
 
+  .blocco {
+    width: calc(100% / 3);
+  }
+
+
   footer {
     padding: 4% 1%;
   }
 
   .minicover {
     display: none;
+  }
+
+}
+
+@media screen and (min-width: 420px) and (max-width: 767px) {
+
+  aside {
+    width: 25%;
+  }
+
+  .right-section {
+    width: 75%;
+  }
+
+  .second-row {
+    flex-wrap: wrap;
+  }
+
+  .blocco {
+    width: calc(100% / 2);
   }
 
 }
