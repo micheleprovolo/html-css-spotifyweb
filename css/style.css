@@ -15,7 +15,6 @@ a {
 }
 
 /* REGOLE DI PAGINA */
-
 /* MAIN SECTION */
 main {
   /* width: 100%; */
@@ -113,7 +112,7 @@ aside {
   flex-direction: column;
 }
 
- .micro-footer i {
+.micro-footer i {
   padding-right: 8%;
   padding-bottom: 8%;
 }
@@ -290,9 +289,7 @@ footer a:hover {
 }
 
 /* MEDIA QUERY */
-
 @media screen and (min-width: 768px) and (max-width: 991px) {
-
   .menu-list {
     display: none;
   }
@@ -348,10 +345,11 @@ footer a:hover {
     font-size: 15px;
   }
 
-   .micro-footer i {
+  .micro-footer i {
     padding-right: 8%;
     padding-bottom: 15%;
   }
+
   .first-row {
     font-size: 14px;
   }
@@ -387,7 +385,6 @@ footer a:hover {
     width: calc(100% / 3);
   }
 
-
   footer {
     padding: 4% 1%;
   }
@@ -395,11 +392,9 @@ footer a:hover {
   .minicover {
     display: none;
   }
-
 }
 
 @media screen and (min-width: 420px) and (max-width: 767px) {
-
   aside {
     width: 25%;
   }
@@ -415,5 +410,4 @@ footer a:hover {
   .blocco {
     width: calc(100% / 2);
   }
-
 }
